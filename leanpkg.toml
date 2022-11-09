@@ -1,0 +1,8 @@
+[package]
+name = "trinums"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.48.0"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "7951ed37deb3b2923a6f47d9bdcb4d69a8703550"}
